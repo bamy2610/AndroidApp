@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1081498353680",
+    "firebase_url": "https://bookinghotel-c5389.firebaseio.com",
+    "project_id": "bookinghotel-c5389",
+    "storage_bucket": "bookinghotel-c5389.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081498353680:android:23a01fd02da22f5df58a95",
+        "android_client_info": {
+          "package_name": "app.danagon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081498353680-6c8p16r35nf2onbkmkjosjb7211lmg6c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.l.bookinghotel",
+            "certificate_hash": "4921fe3b595d237b5e4217e9213e0d92d4d3c42c"
+          }
+        },
+        {
+          "client_id": "1081498353680-99pho53glqqff5lvq6gu5d4oq811ct7l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIppp_lKeyvm2nJUIjXa4lW4HWym_H-k4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1081498353680-99pho53glqqff5lvq6gu5d4oq811ct7l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

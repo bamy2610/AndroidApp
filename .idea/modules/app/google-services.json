@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "888523906149",
+    "firebase_url": "https://danagonapp.firebaseio.com",
+    "project_id": "danagonapp",
+    "storage_bucket": "danagonapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888523906149:android:5bba501d52a18284ce7a8c",
+        "android_client_info": {
+          "package_name": "app.danagon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888523906149-k9las1ik9ok88n27q9d7r2v4drcv34c7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.danagon",
+            "certificate_hash": "4921fe3b595d237b5e4217e9213e0d92d4d3c42c"
+          }
+        },
+        {
+          "client_id": "888523906149-vc5j7bavtmdut7gdoi5mvjkuutbrakhv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5np0Cbl1DW9TPuy3nud-efjqgGBmDNjg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888523906149-vc5j7bavtmdut7gdoi5mvjkuutbrakhv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
