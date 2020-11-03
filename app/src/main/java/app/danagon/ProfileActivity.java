@@ -93,9 +93,7 @@ public class ProfileActivity extends AppCompatActivity {
             }
         }
     }
-
     private void uploadImageToFirebase(Uri imageUri) {
-
             final StorageReference fileRef = storageReference.child("users/"+fAuth.getCurrentUser().getUid()+"/profile.jpg");
             fileRef.putFile(imageUri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                 @Override
