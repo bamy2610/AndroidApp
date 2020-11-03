@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Danagon_App</string>
+    <string name="app_name">Danagon</string>
     <string name="title_activity_login">login</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>

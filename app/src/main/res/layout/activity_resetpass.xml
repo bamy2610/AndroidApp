@@ -1,67 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/backgr"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="170dp"
-        android:layout_marginTop="92dp"
-        android:layout_marginEnd="170dp"
-        android:fontFamily="sans-serif-black"
-
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:fontFamily="tahoma"
         android:text=" Thay Đổi Mật Khẩu"
-        android:textSize="30dp"
+        android:textColor="#0f8912"
+        android:textSize="41dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#0f8912"
+        android:backgroundTintMode="add" />
+
+    <EditText
         android:id="@+id/editTextTextPassword"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="136dp"
-        android:layout_marginEnd="101dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/pading_1"
         android:drawableLeft="@drawable/ic_baseline_lock_24"
         android:ems="10"
         android:hint=" Nhập mật khẩu mới"
+        android:fontFamily="tahoma"
         android:inputType="textPassword"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView13" />
+        android:padding="10dp"
+        android:textColorHint="#0f8912"
+        android:textSize="21dp" />
 
     <EditText
         android:id="@+id/editTextTextPassword2"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="76dp"
-        android:layout_marginEnd="101dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="110dp"
+        android:background="@drawable/pading_1"
         android:drawableLeft="@drawable/ic_baseline_lock_24"
         android:ems="10"
         android:hint="Nhập lại mật khẩu mới"
         android:inputType="textPassword"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/editTextTextPassword" />
+        android:padding="10dp"
+        android:fontFamily="tahoma"
+        android:textColorHint="#0f8912" />
 
     <Button
         android:id="@+id/button6"
-        android:layout_width="150dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:backgroundTint="#fff"
-        android:text="Xác Nhận Thay Đổi"
-        android:textColor="#01b671"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/editTextTextPassword2" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_margin="20dp"
+        android:background="@drawable/buttom_1"
+        android:fontFamily="tahoma"
+        android:text="Xác Nhận Thay Đổi"
+        android:textColor="#FFFF"
+        android:textSize="21dp" />
+
+</LinearLayout>
