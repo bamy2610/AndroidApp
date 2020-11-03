@@ -12,9 +12,14 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
+import java.util.Timer;
+import java.util.TimerTask;
 
 
 public class MainActivity extends AppCompatActivity {
+    Timer timer;
+
+
     private Button btnLogin;
     private Button btnRegister;
 
@@ -22,24 +27,19 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        btnLogin = (Button) findViewById(R.id.btn_login);
 
+        /*tạo dối tượng timer */
+        timer = new Timer();
 
-        btnLogin.setOnClickListener(new View.OnClickListener() {
+        /* gọi hàm schedule của đối tượng timer*/
+        timer.schedule(new TimerTask() {
             @Override
-            public void onClick(View v) {
+            public void run() {
                 Intent intent = new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(intent);
+                finish();
             }
-        });
-        btnRegister = (Button) findViewById(R.id.btn_register) ;
-        btnRegister.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, RegisterActivity.class);
-                startActivity(intent);
-            }
-        });
+        },5000);
 
     }
 
