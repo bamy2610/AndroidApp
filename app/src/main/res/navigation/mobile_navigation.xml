@@ -15,7 +15,7 @@
         android:id="@+id/nav_gallery"
         android:name="app.danagon.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/Mua_sam" />
 
     <fragment
         android:id="@+id/nav_dichvu"
@@ -26,10 +26,29 @@
         android:id="@+id/nav_tintuc"
         android:name="app.danagon.ui.tintuc.profileFragment"
         android:label="fragment_profile"
+<<<<<<< HEAD
         tools:layout="@layout/fragment_tintuc" />
     <fragment
         android:id="@+id/nav_baiviet"
         android:name="app.danagon.ui.baiviet.BaiVietFragment"
         android:label="fragment_bai_viet"
         tools:layout="@layout/fragment_bai_viet" />
+=======
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/addressFragment"
+        android:name="app.danagon.ui.address.AddressFragment"
+        android:label="address_fragment"
+        tools:layout="@layout/address_fragment" />
+    <fragment
+        android:id="@+id/nav_nunber"
+        android:name="app.danagon.ui.number.NumberFragment"
+        android:label="number_fragment"
+        tools:layout="@layout/number_fragment" />
+    <fragment
+        android:id="@+id/nav_origanzation"
+        android:name="app.danagon.ui.organzation.OrigenzationFragment"
+        android:label="origenzation_fragment"
+        tools:layout="@layout/origenzation_fragment" />
+>>>>>>> 9f8fa2c929b5a5fd1ef2243489ebc255e63ed913
 </navigation>

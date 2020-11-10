@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:fontFamily="tahoma"
+        android:fontFamily="arial"
         android:gravity="center"
         android:text="Đăng Nhập"
         android:textColor="#0f8912"
@@ -38,12 +38,16 @@
         android:background="@drawable/pading_1"
         android:drawableLeft="@drawable/ic_baseline_person_24"
         android:ems="10"
+<<<<<<< HEAD
+        android:fontFamily="arial"
+=======
+        android:text="bamy2610@gmail.com"
         android:fontFamily="tahoma"
+>>>>>>> c1e49d2ebd44e2eaca6d537c904be0ef5cb08af8
         android:hint=" Tên Đăng Nhập"
         android:inputType="textPersonName"
         android:padding="10dp"
-        android:textColorHint="#0f8912"
-        android:textSize="21dp" />
+        android:textSize="19dp" />
 
     <EditText
         android:id="@+id/Pass"
@@ -53,12 +57,12 @@
         android:background="@drawable/pading_1"
         android:drawableLeft="@drawable/ic_baseline_lock_24"
         android:ems="10"
-        android:fontFamily="tahoma"
+        android:fontFamily="arial"
         android:hint=" Mật Khẩu"
+        android:text="Lebamy112233"
         android:inputType="textPassword"
         android:padding="10dp"
-        android:textSize="21dp"
-        android:textColorHint="#0f8912" />
+        android:textSize="19dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -73,19 +77,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
-            android:text="Chưa có tài khoản ? "
-            android:textColor="#FF5722"
-            android:textSize="16dp" />
+            android:fontFamily="arial"
+            android:text="Tài khoản mới ? "
+            android:textColor="#0f8912"
+            android:textSize="21dp" />
 
         <TextView
             android:id="@+id/quenmatkhau"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:fontFamily="tahoma"
+            android:fontFamily="arial"
             android:text="Quên Mật Khẩu ?"
-            android:textColor="#FF9800"
-            android:textSize="16dp" />
+            android:textColor="#0f8912"
+            android:textSize="21dp" />
     </LinearLayout>
 
     <Button
@@ -103,6 +108,7 @@
 
     <ProgressBar
         android:id="@+id/progressBar"
+        android:layout_gravity="center"
         style="?android:attr/progressBarStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
