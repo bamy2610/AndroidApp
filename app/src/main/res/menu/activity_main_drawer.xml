@@ -20,5 +20,17 @@
             android:id="@+id/nav_profile"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Your Profile" />
+        <item
+            android:id="@+id/nav_address"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Địa Chỉ" />
+        <item
+            android:id="@+id/nav_origanzation"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Tô chức" />
+        <item
+            android:id="@+id/nav_nunber"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Nhân Viên" />
     </group>
 </menu>

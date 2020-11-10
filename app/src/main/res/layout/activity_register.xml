@@ -1,37 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:background="#fff"
+    android:orientation="vertical"
     android:layout_height="match_parent">
 
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="37dp"
-        android:layout_marginEnd="37dp"
+        android:gravity="center"
         android:fontFamily="arial"
         android:text="Đăng Ký"
         android:textColor="#090"
         android:textSize="40dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_margin="20dp"/>
 
     <EditText
         android:id="@+id/Fullname"
-        android:layout_width="0dp"
-        android:layout_height="51dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
-        android:layout_marginTop="100dp"
         android:layout_marginEnd="25dp"
         android:background="@drawable/pading_1"
         android:drawableLeft="@drawable/ic_baseline_person_24"
         android:ems="10"
+        android:textSize="19dp"
         android:fontFamily="arial"
         android:hint=" Họ Và Tên"
         android:inputType="textPersonName"
@@ -44,35 +42,37 @@
 
     <EditText
         android:id="@+id/Mail"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="51dp"
         android:layout_marginStart="25dp"
-        android:layout_marginTop="75dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="25dp"
-        android:padding="10dp"
-        android:ems="10"
-        android:fontFamily="arial"
         android:background="@drawable/pading_1"
-        android:textColorHint="#A9A9A9"
-        android:hint=" Địa Chỉ Email"
         android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:ems="10"
+        android:textSize="19dp"
+        android:fontFamily="arial"
+        android:hint=" Địa Chỉ Email"
         android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColorHint="#A9A9A9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/Fullname" />
 
     <EditText
         android:id="@+id/prfPhone"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="51dp"
         android:layout_marginStart="25dp"
-        android:layout_marginTop="75dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="25dp"
         android:background="@drawable/pading_1"
         android:padding="10dp"
         android:drawableLeft="@drawable/ic_baseline_local_phone_24"
         android:ems="10"
         android:hint=" Số Điện Thoại"
+        android:textSize="19dp"
         android:fontFamily="arial"
         android:inputType="phone"
         android:textColorHint="#A9A9A9"
@@ -82,16 +82,17 @@
 
     <EditText
         android:id="@+id/pass"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="51dp"
         android:layout_marginStart="25dp"
-        android:layout_marginTop="75dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="25dp"
         android:background="@drawable/pading_1"
         android:padding="10dp"
         android:fontFamily="arial"
         android:drawableLeft="@drawable/ic_baseline_lock_24"
         android:ems="10"
+        android:textSize="19dp"
         android:hint=" Mật Khẩu"
         android:inputType="textPassword"
         android:textColorHint="#A9A9A9"
@@ -102,16 +103,17 @@
 
     <EditText
         android:id="@+id/repass"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="51dp"
         android:layout_marginStart="25dp"
-        android:layout_marginTop="75dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="25dp"
         android:background="@drawable/pading_1"
         android:padding="10dp"
         android:drawableLeft="@drawable/ic_baseline_lock_24"
         android:ems="10"
         android:hint=" Nhập Lại Mật Khẩu"
+        android:textSize="19dp"
         android:fontFamily="arial"
         android:inputType="textPassword"
         android:textColorHint="#A9A9A9"
@@ -122,27 +124,27 @@
 
     <Button
         android:id="@+id/register"
-        android:layout_width="150dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="20dp"
         android:backgroundTint="#090"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
         android:background="@drawable/buttom_1"
         android:text="Tạo tài khoản"
+        android:textSize="21dp"
         android:textColor="#fff"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/repass" />
+         />
 
     <TextView
         android:id="@+id/login"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
         android:fontFamily="arial"
         android:text="Login"
-        android:textSize="20dp"
+        android:textSize="21dp"
         android:textColor="#090"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.385"
@@ -161,4 +163,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/login" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

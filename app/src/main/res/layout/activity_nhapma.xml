@@ -14,7 +14,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="80dp"
         android:layout_marginRight="10dp"
-        android:fontFamily="tahoma"
+        android:fontFamily="arial"
         android:text="Nhập Mã Xác Thực"
         android:textColor="#0f8912"
         android:textSize="41dp" />
@@ -40,9 +40,8 @@
         android:padding="10dp"
         android:fontFamily="tahoma"
         android:drawableLeft="@drawable/ic_action_maxacthuc"
-        android:text="Mã Xác Thực"
-        android:textColor="#0f8912"
-        android:textSize="21dp" />
+        android:hint="Mã Xác Thực"
+        android:textSize="19dp" />
 
     <Button
         android:id="@+id/button2"
@@ -56,7 +55,7 @@
         android:gravity="center"
         android:text="Xác Thực"
         android:textSize="21dp"
-        android:fontFamily="tahoma"
+        android:fontFamily="arial"
         android:textColor="#ffff" />
 
     <TextView
@@ -65,9 +64,9 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:fontFamily="tahoma"
+        android:fontFamily="arial"
         android:text="Gửi lại mã xác thực ? "
-        android:textColor="#FF5722"
-        android:textSize="16dp" />
+        android:textColor="#0f8912"
+        android:textSize="21dp" />
 
 </LinearLayout>
