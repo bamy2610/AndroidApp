@@ -18,13 +18,18 @@
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="app.danagon.ui.slideshow.SlideshowFragment"
+        android:id="@+id/nav_dichvu"
+        android:name="app.danagon.ui.dichvu.SlideshowFragment"
         android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_dichvu" />
     <fragment
-        android:id="@+id/nav_profile"
-        android:name="app.danagon.ui.profile.profileFragment"
+        android:id="@+id/nav_tintuc"
+        android:name="app.danagon.ui.tintuc.profileFragment"
         android:label="fragment_profile"
-        tools:layout="@layout/fragment_profile" />
+        tools:layout="@layout/fragment_tintuc" />
+    <fragment
+        android:id="@+id/nav_baiviet"
+        android:name="app.danagon.ui.baiviet.BaiVietFragment"
+        android:label="fragment_bai_viet"
+        tools:layout="@layout/fragment_bai_viet" />
 </navigation>

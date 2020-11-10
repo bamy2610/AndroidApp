@@ -1,4 +1,4 @@
-package app.danagon.ui.profile;
+package app.danagon.ui.tintuc;
 
 import androidx.lifecycle.ViewModel;
 

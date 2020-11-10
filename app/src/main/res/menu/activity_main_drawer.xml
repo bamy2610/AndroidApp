@@ -13,12 +13,16 @@
             android:icon="@drawable/ic_menu_gallery"
             android:title="@string/menu_gallery" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_dichvu"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:title="Dịch Vụ" />
         <item
-            android:id="@+id/nav_profile"
+            android:id="@+id/nav_tintuc"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Your Profile" />
+            android:title="Tin Tức" />
+        <item
+            android:id="@+id/nav_baiviet"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Bài viết" />
     </group>
 </menu>

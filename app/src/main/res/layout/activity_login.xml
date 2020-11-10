@@ -26,8 +26,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:backgroundTint="#0f8912"
-        android:backgroundTintMode="add"
-        />
+        android:backgroundTintMode="add" />
 
     <EditText
         android:id="@+id/Mail"

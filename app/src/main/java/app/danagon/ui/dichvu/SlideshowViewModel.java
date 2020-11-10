@@ -1,4 +1,4 @@
-package app.danagon.ui.slideshow;
+package app.danagon.ui.dichvu;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
@@ -10,7 +10,7 @@ public class SlideshowViewModel extends ViewModel {
 
     public SlideshowViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is slideshow fragment");
+
     }
 
     public LiveData<String> getText() {

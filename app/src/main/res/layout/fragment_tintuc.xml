@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#090"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.dichvu.SlideshowFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="385dp"
+                android:layout_height="131dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#0c0" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginRight="60dp"
+                android:gravity="right"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/create"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:text="Đăng Nhập /"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="tahoma"
+                    android:text="Đăng Ký"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="50dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="25dp"
+                android:text="Ngôn ngữ :" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="155dp"
+                android:layout_height="128dp"
+
+                android:layout_marginTop="10dp"
+                android:src="@drawable/backgr" />
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="131dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/banner" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="2274dp">
+
+            <View
+                android:id="@+id/view6"
+                android:layout_width="wrap_content"
+                android:layout_height="2039dp"
+                android:background="#fff" />
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="wrap_content"
+                android:layout_height="544dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#f0f8ff" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="141dp"
+                android:layout_height="wrap_content"
+                android:text="Tin Tức"
+                android:textAlignment="center"
+                android:textColor="#009900"
+                android:textSize="30dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="#0f8912"
+                android:backgroundTintMode="add" />
+
+            <View
+                android:id="@+id/view5"
+                android:layout_width="372dp"
+                android:layout_height="66dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginRight="15dp"
+                android:background="#090" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="70dp"
+                android:text="Công ty Cổ phần Khiết Long"
+                android:textColor="#fff"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="369dp"
+                android:layout_height="168dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="170dp"
+                android:src="@drawable/canh_vat" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="48dp"
+                android:layout_height="57dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="75dp"
+                android:src="@drawable/backgr" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="90dp"
+                android:text="Quản Trị Hệ Thống"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="140dp"
+                android:text="Công ty Cổ Phần Khiết Long tuyển dụng nhân viên kinh doanh"
+                android:textColor="#0000ff"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="350dp"
+                android:text="Nhằm đáp ứng nhu cầu phát triển công việc, công ty Cổ Phần Khiết Long thông báo tuyển dụng như sau: - 1 nhân viên Kinh doanh. - Hình thức làm việc: Toàn thời gian cố định"
+                android:textColor="#000000" />
+
+
+
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="420dp"
+                android:drawableStart="@drawable/ic_baseline_calendar_today_24"
+                android:text="06-11-2021" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="450dp"
+                android:text="125/12 Ngô Gia Tự, Hải Châu 1, Hải Châu, Đà Nẵng" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="480dp"
+                android:background="#090"
+                android:text="Chi Tiết"
+                android:textColor="#fff" />
+
+            <View
+
+                android:layout_width="wrap_content"
+                android:layout_height="488dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="550dp"
+                android:layout_marginRight="10dp"
+                android:background="#f0f8ff" />
+
+            <View
+                android:id="@+id/view7"
+                android:layout_width="372dp"
+                android:layout_height="66dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="560dp"
+                android:layout_marginRight="15dp"
+                android:background="#090" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="570dp"
+                android:text="Công ty Cổ phần Khiết Long"
+                android:textColor="#fff"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="590dp"
+                android:text="Trần Phương Nam"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="57dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="565dp"
+                android:src="@drawable/backgr" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="369dp"
+                android:layout_height="168dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="670dp"
+                android:src="@drawable/canh_vat3" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="630dp"
+                android:text="CÔNG TY CP KHIẾT LONG TUYỂN DỤNG"
+                android:textColor="#0000ff"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="850dp"
+                android:text="Nhằm đáp ứng nhu cầu phát triển công việc, công ty Cổ Phần Khiết Long thông báo tuyển dụng như sau: 1 nhân viên Kế toán. Hình thức làm việc: Toàn thời gian cố định Mức lương: thỏa thuận"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="920dp"
+                android:drawableStart="@drawable/ic_baseline_calendar_today_24"
+                android:text="06-11-2021" />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="950dp"
+                android:text="125/12 Ngô Gia Tự, Hải Châu 1, Hải Châu, Đà Nẵng" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="980dp"
+                android:background="#090"
+                android:text="Chi Tiết"
+                android:textColor="#fff" />
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="wrap_content"
+                android:layout_height="488dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="1050dp"
+                android:layout_marginRight="10dp"
+                android:background="#f0f8ff" />
+
+            <View
+                android:layout_width="372dp"
+                android:layout_height="66dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="1060dp"
+                android:layout_marginRight="15dp"
+                android:background="#090" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="1070dp"
+                android:text="Công viên Suối khoáng nóng Núi Thần Tài "
+                android:textColor="#fff"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="1090dp"
+                android:text="Trần Phương Nam"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="57dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="1065dp"
+                android:src="@drawable/backgr" />
+
+            <ImageView
+                android:layout_width="369dp"
+                android:layout_height="168dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="1170dp"
+                android:src="@drawable/canh_vat3" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="1130dp"
+                android:text="Thông Báo Mở Cửa Đón Khách Trở Lại Vào Ngày 14/11/2020"
+                android:textColor="#0000ff"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="1350dp"
+                android:text="Khu du lịch Núi Thần Tài xin thông báo sẽ mở cửa trở lại vào ngày"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="1400dp"
+                android:drawableStart="@drawable/ic_baseline_calendar_today_24"
+                android:text="06-11-2021" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="1450dp"
+                android:text="QL14G, Hòa Vang, Đà Nẵng" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="1480dp"
+                android:background="#090"
+                android:text="Chi Tiết"
+                android:textColor="#fff" />
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="1550dp"
+                android:background="#090"
+                android:text="Hiển Thị Thêm"
+                android:textColor="#fff" />
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
