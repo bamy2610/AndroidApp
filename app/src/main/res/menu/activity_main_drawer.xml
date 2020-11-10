@@ -20,6 +20,7 @@
             android:id="@+id/nav_profile"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Your Profile" />
+<<<<<<< HEAD
         <item
             android:id="@+id/nav_address"
             android:icon="@drawable/ic_menu_slideshow"
@@ -32,5 +33,9 @@
             android:id="@+id/nav_nunber"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Nhân Viên" />
+=======
+
+
+>>>>>>> c1e49d2ebd44e2eaca6d537c904be0ef5cb08af8
     </group>
 </menu>
