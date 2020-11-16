@@ -1,4 +1,4 @@
-package app.danagon.ui.address;
+package app.danagon.ui.quanlyduongpho;
 
 import androidx.lifecycle.ViewModelProvider;
 
@@ -14,24 +14,24 @@ import android.view.ViewGroup;
 
 import app.danagon.R;
 
-public class AddressFragment extends Fragment {
+public class quanlyduongphoFragment extends Fragment {
 
-    private AddressViewModel mViewModel;
+    private QuanlyduongphoViewModel mViewModel;
 
-    public static AddressFragment newInstance() {
-        return new AddressFragment();
+    public static quanlyduongphoFragment newInstance() {
+        return new quanlyduongphoFragment();
     }
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.address_fragment, container, false);
+        return inflater.inflate(R.layout.quanlyduongpho_fragment, container, false);
     }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        mViewModel = new ViewModelProvider(this).get(AddressViewModel.class);
+        mViewModel = new ViewModelProvider(this).get(QuanlyduongphoViewModel.class);
         // TODO: Use the ViewModel
     }
 

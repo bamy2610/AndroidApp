@@ -16,18 +16,12 @@
             android:id="@+id/nav_dichvu"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Dịch Vụ" />
-        <item
-            android:id="@+id/nav_tintuc"
-            android:icon="@drawable/ic_menu_slideshow"
-<<<<<<< HEAD
-            android:title="Tin Tức" />
+        />
         <item
             android:id="@+id/nav_baiviet"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Bài viết" />
-=======
-            android:title="Your Profile" />
-<<<<<<< HEAD
+
         <item
             android:id="@+id/nav_address"
             android:icon="@drawable/ic_menu_slideshow"
@@ -39,11 +33,36 @@
         <item
             android:id="@+id/nav_nunber"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Nhân Viên" />
-=======
+            android:title="Nhân Viên" /><![CDATA[
+        =======
 
 
->>>>>>> c1e49d2ebd44e2eaca6d537c904be0ef5cb08af8
->>>>>>> 9f8fa2c929b5a5fd1ef2243489ebc255e63ed913
+        >>>>>>> c1e49d2ebd44e2eaca6d537c904be0ef5cb08af8
+        >>>>>>> 9f8fa2c929b5a5fd1ef2243489ebc255e63ed913
+    ]]>
     </group>
+
+
+    <item android:title="NhanvViem" >
+        <menu>
+            <item
+                android:id="@+id/nav_tochuc"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Tochuc" />
+            <item
+                android:id="@+id/nav_diadiem"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="diadiem" />
+            <item
+                android:id="@+id/nav_quanlykhuvuc"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="quanlykhuvuc" />
+            <item
+                android:id="@+id/nav_quanlyduongpho"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="quanlyduongpho" />
+        </menu>
+    </item>
+
+
 </menu>
