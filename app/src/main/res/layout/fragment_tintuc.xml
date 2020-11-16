@@ -88,12 +88,12 @@
 
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="2274dp">
+            android:layout_height="1681dp">
 
             <View
                 android:id="@+id/view6"
                 android:layout_width="wrap_content"
-                android:layout_height="2039dp"
+                android:layout_height="1607dp"
                 android:background="#fff" />
 
             <View
@@ -184,8 +184,6 @@
                 android:layout_marginTop="350dp"
                 android:text="Nhằm đáp ứng nhu cầu phát triển công việc, công ty Cổ Phần Khiết Long thông báo tuyển dụng như sau: - 1 nhân viên Kinh doanh. - Hình thức làm việc: Toàn thời gian cố định"
                 android:textColor="#000000" />
-
-
 
 
             <TextView
@@ -293,8 +291,6 @@
                 android:text="06-11-2021" />
 
 
-
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -387,7 +383,6 @@
                 android:text="06-11-2021" />
 
 
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -405,7 +400,6 @@
                 android:textColor="#fff" />
 
 
-
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -415,6 +409,14 @@
                 android:text="Hiển Thị Thêm"
                 android:textColor="#fff" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="1630dp"
+                android:text="© Phát triển bới Khiết Long"
+                android:textColor="#fff"
+                android:textSize="21dp" />
         </FrameLayout>
 
 

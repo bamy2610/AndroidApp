@@ -88,12 +88,12 @@
 
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="2274dp">
+            android:layout_height="2190dp">
 
             <View
                 android:id="@+id/view6"
                 android:layout_width="wrap_content"
-                android:layout_height="2039dp"
+                android:layout_height="2120dp"
                 android:background="#fff" />
 
             <View
@@ -453,7 +453,7 @@
 
             <View
                 android:layout_width="wrap_content"
-                android:layout_height="558dp"
+                android:layout_height="556dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="1550dp"
                 android:layout_marginRight="10dp"
@@ -567,6 +567,16 @@
                 android:background="#090"
                 android:text="Xem Thêm"
                 android:textColor="#fff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="2150dp"
+                android:text="© Phát triển bới Khiết Long"
+                android:textColor="#fff"
+                android:textSize="21dp" />
+
 
         </FrameLayout>
 
