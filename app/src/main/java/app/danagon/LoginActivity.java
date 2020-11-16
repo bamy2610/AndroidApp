@@ -87,6 +87,7 @@ public class LoginActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(),RegisterActivity.class));
             }
         });
+
         mForgotpass.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -95,7 +96,6 @@ public class LoginActivity extends AppCompatActivity {
                 passwordReserDiaglog.setTitle("Quên Mật Khẩu ?");
                 passwordReserDiaglog.setMessage("Vui lòng nhập email và nhận đường dẫn đặt lại mật khẩu trong email.");
                 passwordReserDiaglog.setView(resetMail);
-
                 passwordReserDiaglog.setPositiveButton("Đồng Ý", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
@@ -103,12 +103,14 @@ public class LoginActivity extends AppCompatActivity {
                         fAuth.sendPasswordResetEmail(mail).addOnSuccessListener(new OnSuccessListener<Void>() {
                             @Override
                             public void onSuccess(Void aVoid) {
-                                Toast.makeText(LoginActivity.this, "Đường dẫn đặt lại mật khẩu đã được gửi vào email của bạn", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(LoginActivity.this, "Đường dẫn đặt lại mật khẩu đã được gửi vào email của bạn",
+                                        Toast.LENGTH_SHORT).show();
                             }
                         }).addOnFailureListener(new OnFailureListener() {
                             @Override
                             public void onFailure(@NonNull Exception e) {
-                                Toast.makeText(LoginActivity.this, "error ! Reset Link not sent" + e.getMessage(), Toast.LENGTH_SHORT).show();
+                                Toast.makeText(LoginActivity.this, "error ! Reset Link not sent" + e.getMessage(),
+                                        Toast.LENGTH_SHORT).show();
                             }
                         });
                     }

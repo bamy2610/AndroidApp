@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/backgr"
+
     android:layout_height="match_parent">
 
     <TextView
@@ -128,8 +128,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="68dp"
         android:backgroundTint="#fff"
-        android:textColor="#01b671"
         android:text="Chỉnh Sửa"
+        android:textColor="#01b671"
         app:layout_constraintEnd_toStartOf="@+id/logout"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView12" />
@@ -158,5 +158,18 @@
         app:layout_constraintHorizontal_bias="0.679"
         app:layout_constraintStart_toStartOf="@+id/textView11"
         app:layout_constraintTop_toTopOf="@+id/profileName" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="#fff"
+        android:text="Xóa Tài Khoản"
+        android:textColor="#01b671"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/change" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

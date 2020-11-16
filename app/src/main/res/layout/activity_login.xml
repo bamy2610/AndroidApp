@@ -38,12 +38,8 @@
         android:background="@drawable/pading_1"
         android:drawableLeft="@drawable/ic_baseline_person_24"
         android:ems="10"
-<<<<<<< HEAD
         android:fontFamily="arial"
-=======
         android:text="bamy2610@gmail.com"
-        android:fontFamily="tahoma"
->>>>>>> c1e49d2ebd44e2eaca6d537c904be0ef5cb08af8
         android:hint=" Tên Đăng Nhập"
         android:inputType="textPersonName"
         android:padding="10dp"

@@ -79,6 +79,7 @@ public class ProfileActivity extends AppCompatActivity {
                 startActivityForResult(openGalleryIntent,1000);
             }
         });
+
     }
 
     @Override
@@ -112,6 +113,7 @@ public class ProfileActivity extends AppCompatActivity {
                 }
             });
     }
+
     public void logout(View view) {
         FirebaseAuth.getInstance().signOut();
         startActivity(new Intent(getApplicationContext(),LoginActivity.class));
