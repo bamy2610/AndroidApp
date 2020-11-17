@@ -24,5 +24,28 @@
             android:id="@+id/nav_baiviet"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Bài viết" />
+        <item
+            android:id="@+id/nav_banbe"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Bạn bè" />
+        <item
+            android:id="@+id/nav_tinnhan"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Tin Nhắn" />
+        <item
+            android:id="@+id/nav_thongtinthanhvien"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Thông Tin Thành Viên" />
+        <item
+            android:id="@+id/nav_danhba"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Danh Bạ Cá Nhân" />
+
+        <item
+            android:id="@+id/nav_lichsumuahang"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Lịch Sử Mua Hàng" />
+
+
     </group>
 </menu>

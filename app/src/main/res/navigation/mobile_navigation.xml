@@ -32,4 +32,29 @@
         android:name="app.danagon.ui.baiviet.BaiVietFragment"
         android:label="fragment_bai_viet"
         tools:layout="@layout/fragment_bai_viet" />
+    <fragment
+        android:id="@+id/nav_banbe"
+        android:name="app.danagon.ui.banbe.BanbeFragment"
+        android:label="banbe_fragment"
+        tools:layout="@layout/banbe_fragment" />
+    <fragment
+        android:id="@+id/nav_tinnhan"
+        android:name="app.danagon.ui.tinnhan.TinnhanFragment"
+        android:label="tinnhan_fragment"
+        tools:layout="@layout/tinnhan_fragment" />
+    <fragment
+        android:id="@+id/nav_thongtinthanhvien"
+        android:name="app.danagon.ui.thongtinthanhvien.ThongtinthanhvienFragment"
+        android:label="thongtinthanhvien_fragment"
+        tools:layout="@layout/thongtinthanhvien_fragment" />
+    <fragment
+        android:id="@+id/nav_danhba"
+        android:name="app.danagon.ui.danhba.danhbaFragment"
+        android:label="danhba_fragment"
+        tools:layout="@layout/danhba_fragment" />
+    <fragment
+        android:id="@+id/nav_lichsumuahang"
+        android:name="app.danagon.ui.lichsumua.LichsumuaFragment"
+        android:label="lichsumua_fragment"
+        tools:layout="@layout/lichsumua_fragment" />
 </navigation>
