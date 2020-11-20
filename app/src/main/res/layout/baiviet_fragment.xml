@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#090"
+    android:layout_height="match_parent"
+    tools:context=".ui.baiviet_cn.baivietFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="385dp"
+                android:layout_height="131dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#0c0" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginRight="60dp"
+                android:gravity="right"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/create"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:text="Đăng Nhập /"
+                    android:textSize="16dp" />
+                <TextView
+                    android:id="@+id/quenmatkhau"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="tahoma"
+                    android:text="Đăng Ký"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="25dp"
+                android:text="Ngôn ngữ :" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="155dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/backgr" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="200dp"
+                android:background="@drawable/style_spiner"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="50dp" />
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="385dp"
+            android:layout_height="131dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/qc" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="850dp">
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="wrap_content"
+                android:layout_height="800dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#fff" />
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="arial"
+                android:text="BÀI ĐÃ ĐĂNG"
+                android:textColor="#090"
+                android:padding="5dp"
+                android:textSize="21dp"
+                android:textStyle="bold" />
+            <SearchView
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/pading_1" />
+
+
+            <EditText
+                android:layout_width="375dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:backgroundTint="#0f8912"
+                android:backgroundTintMode="add" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="270dp"
+                android:layout_marginTop="60dp"
+                android:background="#090"
+                android:textColor="#fff"
+                android:padding="5dp"
+                android:text="Đăng bài mới" />
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="352dp"
+                android:layout_height="400dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="140dp"
+                android:background="#F5F0F0"
+                android:outlineAmbientShadowColor="@color/cardview_dark_background" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="150dp"
+                android:fontFamily="arial"
+                android:text="Công ty cổ phần Khiết Long"
+                android:textColor="#090"
+                android:padding="5dp"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <EditText
+                android:layout_width="375dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="190dp"
+                android:backgroundTint="#0f8912"
+                android:backgroundTintMode="add" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="200dp"
+                android:fontFamily="arial"
+                android:text="Vietnam Booking"
+                android:textColor="#090"
+                android:padding="5dp"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="299dp"
+                android:layout_height="155dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="250dp"
+                android:src="@drawable/panasonic"
+                 />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="410dp"
+                android:fontFamily="arial"
+                android:text="VietNam Booking"
+                android:padding="5dp"
+                android:textSize="18dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="450dp"
+                android:layout_marginRight="60dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/lich"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:drawableStart="@drawable/ic_baseline_calendar_today_24"
+                    android:text="06-11-2020 "
+                    android:textSize="16dp" />
+                <TextView
+                    android:id="@+id/clock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:drawableStart="@drawable/ic_baseline_watch_later_24"
+                    android:fontFamily="tahoma"
+                    android:text="09:11"
+                    android:textSize="16dp" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="480dp"
+                android:drawableStart="@drawable/ic_baseline_add_location_24"
+                android:fontFamily="arial"
+                android:text="125/12 Ngô Gia Tự, 125/12 Ngô Gia Tự"
+                android:padding="5dp"
+                android:textSize="18dp"
+                />
+            <EditText
+                android:layout_width="375dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="650dp"
+                android:backgroundTint="#0f8912"
+                android:backgroundTintMode="add" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="700dp"
+                android:drawableStart="@drawable/ic_baseline_copyright_24"
+                android:text=" Phát Triển Bởi Khiết Long"
+                android:padding="5dp"
+                android:textColor="#808080"
+                android:textStyle="bold" />
+        </FrameLayout>
+    </LinearLayout>
+
+
+</ScrollView>

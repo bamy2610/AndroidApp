@@ -39,11 +39,21 @@
             android:id="@+id/nav_nunber"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Nhân Viên" />
-        <item
-            android:id="@+id/nav_canhan"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Thông tin cá nhân" />
 
 
     </group>
+
+    <item android:title="Thông tin cá nhân">
+        <menu>
+            <item android:title="Bài đăng của bạn bè" android:id="@+id/nav_baidang"
+                android:icon="@drawable/ic_baseline_arrow_drop_down_circle_24"/>
+            <item android:title="Bài viết" android:id="@+id/nav_baivietcn"
+                android:icon="@drawable/ic_baseline_arrow_drop_down_circle_24"/>
+            <item android:title="Đơn đặt hàng đến" android:id="@+id/dondathangFragment"
+                android:icon="@drawable/ic_baseline_arrow_drop_down_circle_24"/>
+            <item android:title="Lịch sử mua hàng" android:id="@+id/lichsumuahangFragment"
+                android:icon="@drawable/ic_baseline_arrow_drop_down_circle_24"/>
+
+        </menu>
+    </item>
 </menu>
