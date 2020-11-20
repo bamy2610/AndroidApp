@@ -4,6 +4,5 @@
     <item android:drawable="@drawable/logo1"></item>
     <item android:drawable="@drawable/logo">
     </item>
-
 >>>>>>> 390bacb919f2e8797384f130bbb7bfad46afbfb8
 </selector>

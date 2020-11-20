@@ -27,17 +27,6 @@
             android:id="@+id/nav_baiviet"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Bài viết" />
-<<<<<<< HEAD
-        ======
-        android:title="Your Profile" />
-        >>>>>>> 390bacb919f2e8797384f130bbb7bfad46afbfb8
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-            android:title="Your Profile" />
->>>>>>> 390bacb919f2e8797384f130bbb7bfad46afbfb8
->>>>>>> c82a9316a04045645f54341e3638dde60b787740
 
         <item
             android:id="@+id/nav_address"
@@ -50,40 +39,34 @@
         <item
             android:id="@+id/nav_nunber"
             android:icon="@drawable/ic_menu_slideshow"
-
-<<<<<<< HEAD
             android:title="Nhân Viên" />
-=======
-        >>>>>>> c1e49d2ebd44e2eaca6d537c904be0ef5cb08af8
-        >>>>>>> 9f8fa2c929b5a5fd1ef2243489ebc255e63ed913
-    ]]>
-=======
-        <item
-            android:id="@+id/nav_banbe"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Bạn bè" />
-        <item
-            android:id="@+id/nav_tinnhan"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Tin Nhắn" />
-        <item
-            android:id="@+id/nav_thongtinthanhvien"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Thông Tin Thành Viên" />
-        <item
-            android:id="@+id/nav_danhba"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Danh Bạ Cá Nhân" />
 
-        <item
-            android:id="@+id/nav_lichsumuahang"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Lịch Sử Mua Hàng" />
 >>>>>>> duong
 >>>>>>> c82a9316a04045645f54341e3638dde60b787740
     </group>
         <item android:title="Nhân Viên">
             <menu>
+                <item
+                    android:id="@+id/nav_banbe"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Bạn bè" />
+                <item
+                    android:id="@+id/nav_tinnhan"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Tin Nhắn" />
+                <item
+                    android:id="@+id/nav_thongtinthanhvien"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Thông Tin Thành Viên" />
+                <item
+                    android:id="@+id/nav_danhba"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Danh Bạ Cá Nhân" />
+
+                <item
+                    android:id="@+id/nav_lichsumuahang"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Lịch Sử Mua Hàng" />
 
 
             <item

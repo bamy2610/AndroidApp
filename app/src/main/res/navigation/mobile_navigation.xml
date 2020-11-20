@@ -37,15 +37,6 @@
         android:name="app.danagon.ui.baiviet.BaiVietFragment"
         android:label="fragment_bai_viet"
         tools:layout="@layout/fragment_bai_viet" />
-<<<<<<< HEAD
-
-
-    <fragment
-        android:id="@+id/addressFragment"
-        android:name="app.danagon.ui.address.Adderss"
-        android:label="address_fragment"
-        tools:layout="@layout/address_fragment" />
->>>>>>> 390bacb919f2e8797384f130bbb7bfad46afbfb8
     <fragment
         android:id="@+id/nav_nunber"
         android:name="app.danagon.ui.number.NumberFragment"
