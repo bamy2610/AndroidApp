@@ -89,20 +89,36 @@ android:orientation="vertical">
         android:layout_width="match_parent"
         android:layout_height="550dp">
 
-    <View
-        android:id="@+id/view4"
-        android:layout_width="wrap_content"
-        android:layout_height="500dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:background="#fff" />
+
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="wrap_content"
+            android:layout_height="640dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#fff" />
+        <SearchView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/pading_1" />
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:background="@drawable/style_spiner"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="10dp"
+            />
 
         <TextView
             android:id="@+id/textView15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="60dp"
             android:fontFamily="arial"
             android:text="Mua Sắm"
             android:textColor="#090"
@@ -113,50 +129,137 @@ android:orientation="vertical">
             android:layout_width="375dp"
             android:layout_height="20dp"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="85dp"
             android:backgroundTint="#0f8912"
             android:backgroundTintMode="add" />
-        <SearchView
-            android:layout_width="180dp"
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="352dp"
+            android:layout_height="508dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="110dp"
+            android:background="#F5F0F0"
+            android:outlineAmbientShadowColor="@color/cardview_dark_background" />
+
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="50dp"
-            android:background="@drawable/pading_1" />
-        <Spinner
-            android:id="@+id/spinner2"
-            android:layout_width="170dp"
-            android:layout_height="50dp"
-            android:background="@drawable/style_spiner"
-            android:layout_marginLeft="210dp"
-            android:layout_marginTop="50dp"
-            />
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="115dp"
+            android:fontFamily="arial"
+            android:text="Điều Hòa Panasonic"
+            android:textColor="#090"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="130dp"
+            android:backgroundTint="#0f8912"
+            android:backgroundTintMode="add" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="299dp"
+            android:layout_height="155dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="150dp"
+            app:srcCompat="@drawable/panasonic" />
         <TextView
             android:id="@+id/textView16"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="130dp"
-            android:layout_marginTop="120dp"
-            android:text="Không có nội dung"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="310dp"
+            android:text="Điều hòa số 1 Việt Nam, với các tính năng vượt trội"
             android:textColor="#090"
             android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="330dp"
+            android:layout_marginRight="60dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/lich"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:drawableStart="@drawable/ic_baseline_calendar_today_24"
+                android:text="06-11-2020 "
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/clock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:drawableStart="@drawable/ic_baseline_watch_later_24"
+                android:fontFamily="tahoma"
+                android:text="09:11"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="295dp"
+            android:layout_height="86dp"
+            android:background="@drawable/vien"
+            android:backgroundTint="#f0f8ff"
+            android:layout_marginTop="370dp"
+            android:layout_marginLeft="50dp"/>
 
         <EditText
             android:layout_width="375dp"
             android:layout_height="10dp"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="400dp"
+            android:layout_marginTop="480dp"
             android:backgroundTint="#0f8912"
             android:backgroundTintMode="add" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="130dp"
-            android:layout_marginTop="450dp"
+            android:layout_marginTop="500dp"
             android:drawableStart="@drawable/ic_baseline_copyright_24"
             android:text=" Phát Triển Bởi Khiết Long"
             android:padding="5dp"
             android:textColor="#808080"
             android:textStyle="bold" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="380dp"
+            android:textColor="#f96d84"
+            android:textSize="20dp"
+            android:text="3.000.000 VNĐ" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="410dp"
+            android:textColor="#c3c2ce"
+            android:textSize="15dp"
+            android:text="Giá gốc : 0 VNĐ" />
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="Đặt Mua"
+            android:background="#009900"
+            android:textColor="#fff"
+            android:layout_marginTop="380dp"
+            android:layout_marginLeft="220dp"/>
+
 
 
     </FrameLayout>

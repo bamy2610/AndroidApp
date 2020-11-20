@@ -7,20 +7,32 @@
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:title="Trang Chủ" />
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:title="Mua Sắm" />
         <item
             android:id="@+id/nav_dichvu"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Dịch Vụ" />
+<<<<<<< HEAD
         />
+=======
+        <item
+            android:id="@+id/nav_tintuc"
+            android:icon="@drawable/ic_menu_slideshow"
+
+            android:title="Tin Tức" />
+>>>>>>> 390bacb919f2e8797384f130bbb7bfad46afbfb8
         <item
             android:id="@+id/nav_baiviet"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Bài viết" />
+<<<<<<< HEAD
+=======
+            android:title="Your Profile" />
+>>>>>>> 390bacb919f2e8797384f130bbb7bfad46afbfb8
 
         <item
             android:id="@+id/nav_address"
@@ -33,6 +45,7 @@
         <item
             android:id="@+id/nav_nunber"
             android:icon="@drawable/ic_menu_slideshow"
+<<<<<<< HEAD
             android:title="Nhân Viên" /><![CDATA[
         =======
 
@@ -65,4 +78,24 @@
     </item>
 
 
+=======
+            android:title="Nhân Viên" />
+
+
+    </group>
+
+    <item android:title="Thông tin cá nhân">
+        <menu>
+            <item android:title="Bài đăng của bạn bè" android:id="@+id/nav_baidang"
+                android:icon="@drawable/ic_baseline_arrow_drop_down_circle_24"/>
+            <item android:title="Bài viết" android:id="@+id/nav_baivietcn"
+                android:icon="@drawable/ic_baseline_arrow_drop_down_circle_24"/>
+            <item android:title="Đơn đặt hàng đến" android:id="@+id/dondathangFragment"
+                android:icon="@drawable/ic_baseline_arrow_drop_down_circle_24"/>
+            <item android:title="Lịch sử mua hàng" android:id="@+id/lichsumuahangFragment"
+                android:icon="@drawable/ic_baseline_arrow_drop_down_circle_24"/>
+
+        </menu>
+    </item>
+>>>>>>> 390bacb919f2e8797384f130bbb7bfad46afbfb8
 </menu>

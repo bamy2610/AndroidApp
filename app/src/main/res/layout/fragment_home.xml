@@ -157,7 +157,7 @@
                 android:layout_height="155dp"
                 android:layout_marginLeft="50dp"
                 android:layout_marginTop="120dp"
-                android:src="@drawable/tintucsk" />
+                android:src="@drawable/dieuhoa" />
 
             <TextView
                 android:id="@+id/textView16"
@@ -186,7 +186,6 @@
                     android:drawableStart="@drawable/ic_baseline_calendar_today_24"
                     android:text="06-11-2020 "
                     android:textSize="16dp" />
-
                 <TextView
                     android:id="@+id/clock"
                     android:layout_width="wrap_content"
@@ -196,7 +195,6 @@
                     android:fontFamily="tahoma"
                     android:text="09:11"
                     android:textSize="16dp" />
-
             </LinearLayout>
 
             <EditText
@@ -612,6 +610,7 @@
                 android:layout_marginTop="2750dp"
                 android:backgroundTint="#0f8912"
                 android:backgroundTintMode="add" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

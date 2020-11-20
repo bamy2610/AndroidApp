@@ -14,7 +14,12 @@
     <fragment
         android:id="@+id/nav_gallery"
         android:name="app.danagon.ui.gallery.GalleryFragment"
+<<<<<<< HEAD
         android:label="@string/menu_gallery" />
+=======
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/mua_sam" />
+>>>>>>> 390bacb919f2e8797384f130bbb7bfad46afbfb8
 
     <fragment
         android:id="@+id/nav_dichvu"
@@ -25,6 +30,10 @@
         android:id="@+id/nav_tintuc"
         android:name="app.danagon.ui.tintuc.profileFragment"
         android:label="fragment_profile"
+<<<<<<< HEAD
+=======
+
+>>>>>>> 390bacb919f2e8797384f130bbb7bfad46afbfb8
         tools:layout="@layout/fragment_tintuc" />
     <fragment
         android:id="@+id/nav_baiviet"
@@ -32,6 +41,14 @@
         android:label="fragment_bai_viet"
         tools:layout="@layout/fragment_bai_viet" />
 
+<<<<<<< HEAD
+=======
+    <fragment
+        android:id="@+id/addressFragment"
+        android:name="app.danagon.ui.address.AddressFragment"
+        android:label="address_fragment"
+        tools:layout="@layout/address_fragment" />
+>>>>>>> 390bacb919f2e8797384f130bbb7bfad46afbfb8
     <fragment
         android:id="@+id/nav_nunber"
         android:name="app.danagon.ui.number.NumberFragment"
@@ -42,6 +59,7 @@
         android:name="app.danagon.ui.organzation.OrigenzationFragment"
         android:label="origenzation_fragment"
         tools:layout="@layout/origenzation_fragment" />
+<<<<<<< HEAD
     <fragment
         android:id="@+id/nav_address"
         android:name="app.danagon.ui.address.Adderss"
@@ -68,4 +86,27 @@
         android:label="tochuc_fragment"
         tools:layout="@layout/tochuc_fragment" />
     >>>>>>> 9f8fa2c929b5a5fd1ef2243489ebc255e63ed913
+=======
+
+    <fragment
+        android:id="@+id/nav_baidang"
+        android:name="app.danagon.ui.baidang.baidangFragment"
+        android:label="baidang_fragment"
+        tools:layout="@layout/baidang_fragment" />
+    <fragment
+        android:id="@+id/nav_baivietcn"
+        android:name="app.danagon.ui.baiviet_cn.baivietFragment"
+        android:label="baiviet_fragment"
+        tools:layout="@layout/baiviet_fragment" />
+    <fragment
+        android:id="@+id/dondathangFragment"
+        android:name="app.danagon.ui.dondathangden.dondathangFragment"
+        android:label="dondathang_fragment"
+        tools:layout="@layout/dondathang_fragment" />
+    <fragment
+        android:id="@+id/lichsumuahangFragment"
+        android:name="app.danagon.ui.lichsumuahang.lichsumuahangFragment"
+        android:label="lichsumuahang_fragment"
+        tools:layout="@layout/lichsumuahang_fragment" />
+>>>>>>> 390bacb919f2e8797384f130bbb7bfad46afbfb8
 </navigation>
