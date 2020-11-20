@@ -45,7 +45,5 @@
             android:id="@+id/nav_lichsumuahang"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Lịch Sử Mua Hàng" />
-
-
     </group>
 </menu>
